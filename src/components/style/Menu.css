@@ -1,0 +1,18 @@
+.MenuItem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 50vh;
+  z-index: 100;
+}
+.button {
+  padding: 40px 80px;
+  font-size: 2em;
+  border-radius: 20px;
+  border: none;
+  box-shadow: rgb(134, 28, 177) 0px 0px 60px;
+  cursor: pointer;
+}
+.button:hover {
+  box-shadow: rgb(175, 8, 127) 0px 0px 60px;
+}
