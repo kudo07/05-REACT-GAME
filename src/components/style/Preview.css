@@ -1,0 +1,20 @@
+.Preview {
+  position: absolute;
+
+  left: 82vw;
+
+  background-color: rgb(255, 255, 255, 0.1);
+
+  border: 1px solid rgb(255, 190, 220);
+
+  border-radius: 10px;
+}
+
+.Preview-board {
+  display: grid;
+  grid-gap: 2px;
+  grid-template-rows: repeat(4, 1fr);
+  grid-template-columns: repeat(4, 1fr);
+  width: 6vw;
+  height: 6vw;
+}

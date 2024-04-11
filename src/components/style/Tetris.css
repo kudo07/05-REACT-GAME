@@ -2,17 +2,22 @@
   padding: 8px 20px;
   font-size: 2em;
   border-radius: 20px;
-  margin-top: -15px;
-  margin-bottom: 5px;
+  margin-top: -35px;
+  /* margin-bottom: 5px; */
   border: none;
   box-shadow: rgb(134, 28, 177) 0px 0px 60px;
   cursor: pointer;
 }
 .button-return:hover {
   box-shadow: rgb(175, 8, 127) 0px 0px 60px;
+  border: 0.024rem solid rgb(255, 0, 119);
+  transition: ease-in-out;
 }
 .tetris-button {
   display: flex;
   justify-content: flex-start;
   align-items: center;
+}
+.Tetris {
+  position: relative;
 }
